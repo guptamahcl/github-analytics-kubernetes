@@ -29,3 +29,8 @@ stage:
     - type: eureka
       name: github-eureka
       coordinates: scpipelines/github-eureka:latest
+prod:
+  services:
+    - type: mysql
+      name: mysql-github-analytics
+      database: github
